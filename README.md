@@ -1,23 +1,53 @@
-# Lux-Attire
-Academic Project - Lux Attire suit store developed using JSP and MYSQL 
+# Lux Attire
 
-- Includes registration, login, logout functionality for users and administrator
-- Includes viewing user order functionality and updating profile functionality
-- Includes add, edit and remove product functionality for administrators
+Lux Attire is an academic project for a suit store developed using JSP and MySQL. It features user and administrator functionalities, including registration, login, profile management, and product management.
 
-# Homepage
+## Features
 
-![](https://i.ibb.co/LpWMGGW/Screenshot-from-2023-09-19-11-01-23.png)
+- **User Functionality**: Registration, login, and logout.
+- **Profile Management**: View and update user profiles.
+- **Administrator Functionality**: Add, edit, and remove products.
 
-# Registration and login
+## Screenshots
 
-![](https://i.ibb.co/Sw5rMsH/Lux-ATtire-registration.png)
+### Homepage
 
-![](https://i.ibb.co/9YFL1FM/Lux-Atire-LOgin.png)
+![Homepage](https://i.ibb.co/LpWMGGW/Screenshot-from-2023-09-19-11-01-23.png)
 
-# Update Profile
-![](https://i.ibb.co/1LFm04Z/Lux-ATtire-User-Profile-Page.png)
+### Registration and Login
 
-# Product List
-![](https://i.ibb.co/vwB8Bcg/Lux-Attire-product-list.png)
+![Registration](https://i.ibb.co/Sw5rMsH/Lux-ATtire-registration.png)
+![Login](https://i.ibb.co/9YFL1FM/Lux-Atire-LOgin.png)
 
+### Update Profile
+
+![Update Profile](https://i.ibb.co/1LFm04Z/Lux-ATtire-User-Profile-Page.png)
+
+### Product List
+
+![Product List](https://i.ibb.co/vwB8Bcg/Lux-Attire-product-list.png)
+
+## Installation
+
+1. Clone the repository:
+
+    ```sh
+    git clone https://github.com/yourusername/Lux-Attire.git
+    cd Lux-Attire
+    ```
+
+2. Set up the database:
+
+    Ensure you have MySQL installed and running. Create a database for the application and import the provided schema.
+
+3. Configure the application:
+
+    Update the database connection settings in the `web.xml` or appropriate configuration file to match your MySQL setup.
+
+4. Deploy the application:
+
+    Deploy the project to a servlet container such as Apache Tomcat.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
